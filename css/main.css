@@ -1,0 +1,169 @@
+:root{
+    scroll-behavior: auto;
+ }
+
+header{
+    width: 100%;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-position: center center;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.overlay h2{
+    font-size: 60px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100vh;
+    
+}
+.inner-menu i{
+    cursor: pointer;
+}
+.icon span{
+    font-size: 30px;
+    display: block;
+}
+.side-menu{
+    position: fixed;
+    display: flex;
+    left: 0;
+    top: 0%;
+
+}
+.inner-menu{
+    width: 250px;
+    height: 100vh;
+    background-color: #111;
+    display: none;
+    z-index: 999999;
+    /* top: 0%; */
+    /* left: 0; */
+}
+
+.menu-content a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    /* color: #818181; */
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+.menu-content a:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+.active{
+    color: rgba(214, 46, 51, 0.4) !important;
+}
+#sliderDown h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+#sliderDown div {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#count {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    width: 100%;
+    margin: 50px auto;
+    z-index: -1;
+}
+.count-overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.tim {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFF;
+}
+#contact-us .head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact-us .con-info h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact-us .con-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+#contact-us .con-info .redd{
+    color: #D62E33;
+}
+#contact-us .con-info .redd i{
+    color: #777;
+}
+#contact-us .con-info .icons i{
+    margin-right: 20px;
+}
+#contact-us .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact-us .icons {
+    margin-top: 50px;
+}
+#contact-us .con-info .social-list {
+    margin-top: 60px;
+    color: #777;
+}
+#contact-us .con-info .social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact-us .con-info .social-list i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+#contact-us form input, #contact-us form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#chars {
+    font-size: 20px;
+    color: #D62E33;
+}
+#contact-us form button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
